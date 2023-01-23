@@ -7,6 +7,12 @@ At first run Redis (for example on Docker)
 docker run -d -p 6379:6379 redis
 ```
 
+Set Environment Variables from env.bat
+```shell
+call env.bat 
+echo %VAR_NAME% (check)
+```
+
 Start app
 ```shell
 python manage.py runserver
